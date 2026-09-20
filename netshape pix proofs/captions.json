@@ -1,0 +1,1812 @@
+[
+  {
+    "id": "72",
+    "file": "netshape-72-proof.png",
+    "group": "rect-no-rotation"
+  },
+  {
+    "id": "105",
+    "file": "netshape-105-proof.png",
+    "group": "rect-no-rotation"
+  },
+  {
+    "id": "109",
+    "file": "netshape-109-proof.png",
+    "group": "rect-no-rotation"
+  },
+  {
+    "id": "215",
+    "file": "netshape-215-proof.png",
+    "group": "rect-no-rotation"
+  },
+  {
+    "id": "106",
+    "file": "netshape-106-proof.png",
+    "group": "rotate-to-square"
+  },
+  {
+    "id": "312",
+    "file": "netshape-312-proof.png",
+    "group": "rotate-to-square"
+  },
+  {
+    "id": "586",
+    "file": "netshape-586-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "587",
+    "file": "netshape-587-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "882",
+    "file": "netshape-882-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "883",
+    "file": "netshape-883-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "1346",
+    "file": "netshape-1346-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "1347",
+    "file": "netshape-1347-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "1351",
+    "file": "netshape-1351-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "2274",
+    "file": "netshape-2274-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "3834",
+    "file": "netshape-3834-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "31",
+    "file": "netshape-31-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "32",
+    "file": "netshape-32-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "34",
+    "file": "netshape-34-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "35",
+    "file": "netshape-35.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "36",
+    "file": "netshape-36-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "64",
+    "file": "netshape-64-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "67",
+    "file": "netshape-67-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "68",
+    "file": "netshape-68-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "69",
+    "file": "netshape-69-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "65",
+    "file": "netshape-65.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "66",
+    "file": "netshape-66.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "73",
+    "file": "netshape-73-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "74",
+    "file": "netshape-74-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "75",
+    "file": "netshape-75-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "91",
+    "file": "netshape-91.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "92",
+    "file": "netshape-92.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "93",
+    "file": "netshape-93.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "117",
+    "file": "netshape-117-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "119",
+    "file": "netshape-119-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "120",
+    "file": "netshape-120-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "121",
+    "file": "netshape-121-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "122",
+    "file": "netshape-122-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "132",
+    "file": "netshape-132-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "133",
+    "file": "netshape-133-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "135",
+    "file": "netshape-135-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "137",
+    "file": "netshape-137-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "138",
+    "file": "netshape-138-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "188",
+    "file": "netshape-188-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "189",
+    "file": "netshape-189-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "190",
+    "file": "netshape-190-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "199",
+    "file": "netshape-199-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "200",
+    "file": "netshape-200-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "201",
+    "file": "netshape-201-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "203",
+    "file": "netshape-203-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "204",
+    "file": "netshape-204-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "211",
+    "file": "netshape-211-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "343",
+    "file": "netshape-343-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "344",
+    "file": "netshape-344-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "345",
+    "file": "netshape-345-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "369",
+    "file": "netshape-369-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "372",
+    "file": "netshape-372-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "373",
+    "file": "netshape-373-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "374",
+    "file": "netshape-374-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "375",
+    "file": "netshape-375-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "376",
+    "file": "netshape-376-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "391",
+    "file": "netshape-391-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "392",
+    "file": "netshape-392-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "394",
+    "file": "netshape-394-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "395",
+    "file": "netshape-395-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "396",
+    "file": "netshape-396-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "397",
+    "file": "netshape-397-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "398",
+    "file": "netshape-398-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "399",
+    "file": "netshape-399-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "400",
+    "file": "netshape-400-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "522",
+    "file": "netshape-522-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "523",
+    "file": "netshape-523-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "524",
+    "file": "netshape-524-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "551",
+    "file": "netshape-551-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "552",
+    "file": "netshape-552-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "553",
+    "file": "netshape-553-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "575",
+    "file": "netshape-575-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "580",
+    "file": "netshape-580-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "583",
+    "file": "netshape-583-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "584",
+    "file": "netshape-584-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "588",
+    "file": "netshape-588-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "589",
+    "file": "netshape-589-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "590",
+    "file": "netshape-590-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1029",
+    "file": "netshape-1029-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1031",
+    "file": "netshape-1031-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1044",
+    "file": "netshape-1044-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1046",
+    "file": "netshape-1046-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1047",
+    "file": "netshape-1047-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1049",
+    "file": "netshape-1049-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1050",
+    "file": "netshape-1050-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1051",
+    "file": "netshape-1051-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1053",
+    "file": "netshape-1053-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1054",
+    "file": "netshape-1054-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1055",
+    "file": "netshape-1055-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1056",
+    "file": "netshape-1056-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1057",
+    "file": "netshape-1057-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1058",
+    "file": "netshape-1058-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1059",
+    "file": "netshape-1059-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1060",
+    "file": "netshape-1060-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1061",
+    "file": "netshape-1061-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1062",
+    "file": "netshape-1062-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1079",
+    "file": "netshape-1079.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "1080",
+    "file": "netshape-1080.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "1081",
+    "file": "netshape-1081.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "1348",
+    "file": "netshape-1348-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1349",
+    "file": "netshape-1349-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1350",
+    "file": "netshape-1350-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1507",
+    "file": "netshape-1507-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "2885",
+    "file": "netshape-2885-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "2886",
+    "file": "netshape-2886-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "2887",
+    "file": "netshape-2887-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "2888",
+    "file": "netshape-2888-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "2889",
+    "file": "netshape-2889-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "2890",
+    "file": "netshape-2890-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "2990",
+    "file": "netshape-2990-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "2991",
+    "file": "netshape-2991-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "2992",
+    "file": "netshape-2992-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "193",
+    "file": "netshape-193-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "194",
+    "file": "netshape-194-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "195",
+    "file": "netshape-195-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "197",
+    "file": "netshape-197-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "198",
+    "file": "netshape-198-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "3163",
+    "file": "netshape-3163-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "3165",
+    "file": "netshape-3165-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "3167",
+    "file": "netshape-3167-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "8933",
+    "file": "netshape-8933-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "8935",
+    "file": "netshape-8935-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "8937",
+    "file": "netshape-8937-proof.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "8931",
+    "file": "netshape-8931-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "25449",
+    "file": "netshape-25449-proof.png",
+    "group": "rect3"
+  },
+  {
+    "id": "196",
+    "file": "netshape-196.png",
+    "group": "diameter"
+  },
+  {
+    "id": "136",
+    "file": "netshape-136.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "225",
+    "file": "netshape-225.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "1078",
+    "file": "netshape-1078.png",
+    "group": "n-gon"
+  },
+  {
+    "id": "90",
+    "file": "netshape-90-proof.png",
+    "group": "rotation-forces-shape"
+  },
+  {
+    "id": "1125",
+    "file": "netshape-1125.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "405",
+    "file": "netshape-405.png",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1124",
+    "file": "netshape-1124.svg",
+    "group": "rect3"
+  },
+  {
+    "id": "8890",
+    "file": "netshape-8890.svg",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1117",
+    "file": "netshape-1117.svg",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "8826",
+    "file": "netshape-8826.svg",
+    "group": "rect3"
+  },
+  {
+    "id": "1119",
+    "file": "netshape-1119.svg",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "8891",
+    "file": "netshape-8891.svg",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "1662",
+    "file": "netshape-1662.svg",
+    "group": "rect3"
+  },
+  {
+    "id": "3083",
+    "file": "netshape-3083.svg",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "25131",
+    "file": "netshape-25131.svg",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "3108",
+    "file": "netshape-3108.svg",
+    "group": "rect3"
+  },
+  {
+    "id": "8835",
+    "file": "netshape-8835.svg",
+    "group": "rect3"
+  },
+  {
+    "id": "8944",
+    "file": "netshape-8944.svg",
+    "group": "rect3"
+  },
+  {
+    "id": "8949",
+    "file": "netshape-8949.svg",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "72683",
+    "file": "netshape-72683.svg",
+    "group": "rigid-orbifold"
+  },
+  {
+    "id": "205",
+    "file": "netshape-205.png",
+    "group": "rotate-to-square"
+  },
+  {
+    "id": "213",
+    "file": "netshape-213.png",
+    "group": "rect-no-rotation"
+  },
+  {
+    "id": "214",
+    "file": "netshape-214.png",
+    "group": "rotate-to-square"
+  },
+  {
+    "id": "309",
+    "file": "netshape-309.png",
+    "group": "rect-no-rotation"
+  },
+  {
+    "id": "310",
+    "file": "netshape-310.png",
+    "group": "rotate-to-square"
+  },
+  {
+    "id": "313",
+    "file": "netshape-313.png",
+    "group": "rotate-to-square"
+  },
+  {
+    "id": "389",
+    "file": "netshape-389.png",
+    "group": "half-size-region"
+  },
+  {
+    "id": "528",
+    "file": "netshape-528.png",
+    "group": "rect-no-rotation"
+  },
+  {
+    "id": "530",
+    "file": "netshape-530.png",
+    "group": "rotate-to-square"
+  },
+  {
+    "id": "554",
+    "file": "netshape-554.png",
+    "group": "rotate-to-square"
+  },
+  {
+    "id": "581",
+    "file": "netshape-581.png",
+    "group": "half-size-region"
+  },
+  {
+    "id": "843",
+    "file": "netshape-843.png",
+    "group": "rotate-to-square"
+  },
+  {
+    "id": "1069",
+    "file": "netshape-1069.png",
+    "group": "rect-no-rotation"
+  },
+  {
+    "id": "1070",
+    "file": "netshape-1070.png",
+    "group": "rect3"
+  },
+  {
+    "id": "1118",
+    "file": "netshape-1118.png",
+    "group": "rect3"
+  },
+  {
+    "id": "1660",
+    "file": "netshape-1660.png",
+    "group": "rotate-to-square-trapezoid"
+  },
+  {
+    "id": "1661",
+    "file": "netshape-1661.png",
+    "group": "rect3"
+  },
+  {
+    "id": "2998",
+    "file": "netshape-2998.png",
+    "group": "half-size-region"
+  },
+  {
+    "id": "2999",
+    "file": "netshape-2999.png",
+    "group": "rect3"
+  },
+  {
+    "id": "3101",
+    "file": "netshape-3101.png",
+    "group": "rect3"
+  },
+  {
+    "id": "3891",
+    "file": "netshape-3891.png",
+    "group": "rotate-to-square-trapezoid"
+  },
+  {
+    "id": "4793",
+    "file": "netshape-4793.png",
+    "group": "rotate-to-square-trapezoid"
+  },
+  {
+    "id": "4794",
+    "file": "netshape-4794.png",
+    "group": "rect3"
+  },
+  {
+    "id": "8586",
+    "file": "netshape-8586.png",
+    "group": "rotate-to-square-trapezoid"
+  },
+  {
+    "id": "10869",
+    "file": "netshape-10869.png",
+    "group": "rotate-to-square-trapezoid"
+  },
+  {
+    "id": "13262",
+    "file": "netshape-13262.png",
+    "group": "half-size-region"
+  },
+  {
+    "id": "72668",
+    "file": "netshape-72668.png",
+    "group": "rect3"
+  },
+  {
+    "id": "6",
+    "file": "netshape-6.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "19",
+    "file": "netshape-19.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "20",
+    "file": "netshape-20.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "33",
+    "file": "netshape-33.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "50",
+    "file": "netshape-50.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "56",
+    "file": "netshape-56.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "76",
+    "file": "netshape-76.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "111",
+    "file": "netshape-111.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "115",
+    "file": "netshape-115.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "125",
+    "file": "netshape-125.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "126",
+    "file": "netshape-126.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "129",
+    "file": "netshape-129.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "144",
+    "file": "netshape-144.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "147",
+    "file": "netshape-147.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "148",
+    "file": "netshape-148.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "221",
+    "file": "netshape-221.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "222",
+    "file": "netshape-222.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "224",
+    "file": "netshape-224.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "358",
+    "file": "netshape-358.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "361",
+    "file": "netshape-361.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "365",
+    "file": "netshape-365.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "366",
+    "file": "netshape-366.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "418",
+    "file": "netshape-418.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "529",
+    "file": "netshape-529.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "622",
+    "file": "netshape-622.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "624",
+    "file": "netshape-624.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "627",
+    "file": "netshape-627.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "881",
+    "file": "netshape-881.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "982",
+    "file": "netshape-982.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "984",
+    "file": "netshape-984.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "991",
+    "file": "netshape-991.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1016",
+    "file": "netshape-1016.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1017",
+    "file": "netshape-1017.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1018",
+    "file": "netshape-1018.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1026",
+    "file": "netshape-1026.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1027",
+    "file": "netshape-1027.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1109",
+    "file": "netshape-1109.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1110",
+    "file": "netshape-1110.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1112",
+    "file": "netshape-1112.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1116",
+    "file": "netshape-1116.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1123",
+    "file": "netshape-1123.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1153",
+    "file": "netshape-1153.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1361",
+    "file": "netshape-1361.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1611",
+    "file": "netshape-1611.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1638",
+    "file": "netshape-1638.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "2416",
+    "file": "netshape-2416.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "2692",
+    "file": "netshape-2692.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "2696",
+    "file": "netshape-2696.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "2838",
+    "file": "netshape-2838.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "2840",
+    "file": "netshape-2840.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "2877",
+    "file": "netshape-2877.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "2882",
+    "file": "netshape-2882.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "2883",
+    "file": "netshape-2883.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "3110",
+    "file": "netshape-3110.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "3127",
+    "file": "netshape-3127.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "3131",
+    "file": "netshape-3131.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "3202",
+    "file": "netshape-3202.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "3226",
+    "file": "netshape-3226.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "3230",
+    "file": "netshape-3230.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "3232",
+    "file": "netshape-3232.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "8356",
+    "file": "netshape-8356.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "8360",
+    "file": "netshape-8360.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "8839",
+    "file": "netshape-8839.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "8970",
+    "file": "netshape-8970.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "8971",
+    "file": "netshape-8971.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "9024",
+    "file": "netshape-9024.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "9025",
+    "file": "netshape-9025.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "9026",
+    "file": "netshape-9026.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "9028",
+    "file": "netshape-9028.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "9029",
+    "file": "netshape-9029.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "9030",
+    "file": "netshape-9030.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "9032",
+    "file": "netshape-9032.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "9038",
+    "file": "netshape-9038.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "24010",
+    "file": "netshape-24010.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25153",
+    "file": "netshape-25153.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25346",
+    "file": "netshape-25346.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25494",
+    "file": "netshape-25494.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25526",
+    "file": "netshape-25526.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25527",
+    "file": "netshape-25527.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25544",
+    "file": "netshape-25544.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25545",
+    "file": "netshape-25545.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25547",
+    "file": "netshape-25547.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25583",
+    "file": "netshape-25583.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25584",
+    "file": "netshape-25584.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25585",
+    "file": "netshape-25585.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25586",
+    "file": "netshape-25586.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25596",
+    "file": "netshape-25596.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25597",
+    "file": "netshape-25597.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25632",
+    "file": "netshape-25632.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25633",
+    "file": "netshape-25633.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25636",
+    "file": "netshape-25636.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25637",
+    "file": "netshape-25637.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "25640",
+    "file": "netshape-25640.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "69424",
+    "file": "netshape-69424.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "69454",
+    "file": "netshape-69454.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72691",
+    "file": "netshape-72691.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72692",
+    "file": "netshape-72692.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72757",
+    "file": "netshape-72757.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72759",
+    "file": "netshape-72759.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72794",
+    "file": "netshape-72794.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72795",
+    "file": "netshape-72795.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72813",
+    "file": "netshape-72813.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72959",
+    "file": "netshape-72959.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72961",
+    "file": "netshape-72961.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72964",
+    "file": "netshape-72964.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72965",
+    "file": "netshape-72965.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72966",
+    "file": "netshape-72966.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72967",
+    "file": "netshape-72967.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72968",
+    "file": "netshape-72968.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72969",
+    "file": "netshape-72969.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72970",
+    "file": "netshape-72970.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72971",
+    "file": "netshape-72971.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72973",
+    "file": "netshape-72973.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72975",
+    "file": "netshape-72975.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72976",
+    "file": "netshape-72976.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "72978",
+    "file": "netshape-72978.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "208912",
+    "file": "netshape-208912.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209057",
+    "file": "netshape-209057.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209083",
+    "file": "netshape-209083.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209084",
+    "file": "netshape-209084.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209098",
+    "file": "netshape-209098.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209106",
+    "file": "netshape-209106.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209202",
+    "file": "netshape-209202.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209211",
+    "file": "netshape-209211.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209212",
+    "file": "netshape-209212.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209213",
+    "file": "netshape-209213.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209216",
+    "file": "netshape-209216.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209218",
+    "file": "netshape-209218.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209221",
+    "file": "netshape-209221.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209340",
+    "file": "netshape-209340.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209341",
+    "file": "netshape-209341.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209342",
+    "file": "netshape-209342.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209390",
+    "file": "netshape-209390.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209391",
+    "file": "netshape-209391.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209404",
+    "file": "netshape-209404.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209475",
+    "file": "netshape-209475.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209508",
+    "file": "netshape-209508.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209513",
+    "file": "netshape-209513.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209514",
+    "file": "netshape-209514.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209515",
+    "file": "netshape-209515.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209524",
+    "file": "netshape-209524.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209533",
+    "file": "netshape-209533.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209535",
+    "file": "netshape-209535.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209536",
+    "file": "netshape-209536.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "209537",
+    "file": "netshape-209537.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "600182",
+    "file": "netshape-600182.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "600184",
+    "file": "netshape-600184.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "600518",
+    "file": "netshape-600518.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "600520",
+    "file": "netshape-600520.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "600548",
+    "file": "netshape-600548.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "601073",
+    "file": "netshape-601073.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "601098",
+    "file": "netshape-601098.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "601100",
+    "file": "netshape-601100.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "601103",
+    "file": "netshape-601103.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "601104",
+    "file": "netshape-601104.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "601148",
+    "file": "netshape-601148.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "601149",
+    "file": "netshape-601149.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "601150",
+    "file": "netshape-601150.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1726808",
+    "file": "netshape-1726808.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1726817",
+    "file": "netshape-1726817.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1727307",
+    "file": "netshape-1727307.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1727327",
+    "file": "netshape-1727327.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1727343",
+    "file": "netshape-1727343.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1727348",
+    "file": "netshape-1727348.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1727350",
+    "file": "netshape-1727350.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1727868",
+    "file": "netshape-1727868.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1727982",
+    "file": "netshape-1727982.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1728356",
+    "file": "netshape-1728356.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1728452",
+    "file": "netshape-1728452.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1728454",
+    "file": "netshape-1728454.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1728482",
+    "file": "netshape-1728482.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "1728483",
+    "file": "netshape-1728483.png",
+    "group": "perimeter"
+  },
+  {
+    "id": "417",
+    "file": "netshape-417-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "420",
+    "file": "netshape-420-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "406",
+    "file": "netshape-406-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "217",
+    "file": "netshape-217-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "218",
+    "file": "netshape-218-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "110",
+    "file": "netshape-110-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "381",
+    "file": "netshape-381-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "382",
+    "file": "netshape-382-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "192",
+    "file": "netshape-192-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "226",
+    "file": "netshape-226-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "227",
+    "file": "netshape-227-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "314",
+    "file": "netshape-314-proof.png",
+    "group": "forced-symmetry"
+  },
+  {
+    "id": "393",
+    "file": "netshape-393-proof.png",
+    "group": "forced-symmetry"
+  }
+]

@@ -1,0 +1,60 @@
+{
+ "id": 209516,
+ "m": 8,
+ "sum": "[1,1,0,1,1,0]",
+ "orient": 1,
+ "off": 1,
+ "view": "full",
+ "curves": true,
+ "manual": {
+  "A": [
+   144.0959314166696,
+   215.9040685833304,
+   -71.808137166661,
+   215.90406858332824,
+   215.90406858332824,
+   215.9040685833304,
+   144.09593141667176,
+   2.1032064978498966e-12
+  ],
+  "L": [
+   1,
+   1,
+   1,
+   0.38,
+   1,
+   1,
+   0.38,
+   1
+  ]
+ },
+ "curveEdits": {
+  "0": {
+   "type": "U",
+   "pts": [
+    [
+     0,
+     0
+    ],
+    [
+     0.5,
+     -0.18301516493336178
+    ]
+   ]
+  },
+  "3": {
+   "type": "U",
+   "pts": [
+    [
+     0,
+     0
+    ],
+    [
+     0.5,
+     -0.24735728357997597
+    ]
+   ]
+  }
+ },
+ "_note": "NOT JUDGED -- my test cannot measure this one, so treat its \"failure\" as meaningless.\n\nYour solution uses CURVES: U curves on edges 0 and 3, opening a corner whose angle is forced to exactly 0 for every member of the family (3,000 sampled, none above 0.0000). The verifier develops the STRAIGHT polygon, which self-touches at that zero corner, so prepShape declares the tile invalid and overlapStrict returns its \"not a tile at all\" value. That is the straight-edge-proxy trap, not a verdict on your tiling.\n\nYou said \"Now it's nice\", and nothing I have measured contradicts that. Judging it properly means developing the CURVED boundary (TilerCurves.buildCurvedTiles) rather than the skeleton -- the same fix the reduce work needed. Until that is wired in, this row is unmeasured.\n\nWorth remembering why it is interesting: a forced zero angle is NOT fatal when the flanking edges are curve-capable. This combo and #3234 m6 si8 both force a zero angle between U edges, and yours has a solution while #3234 does not.\n\n--- data ---\nShape shown is your shape from questionsRedo. edges UUUUUUUU, min angle 0.00 deg, edge ratio 0.3800, closest self-approach 0.00000, vertex figure {3 4} vs type {3 3 4}, criterion 5 on a 2-tile block. Flags still set: length on a solver clamp floor."
+}

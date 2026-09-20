@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>mono2iso — 2-isohedral monohedral tilings</title>
+<style>
+  :root{--bg:#1e1f24;--panel:#2a2c33;--line:#3a3d46;--txt:#e8e8ea;--accent:#4f9cff;
+        --good:#36c275;--bad:#ff6b6b;--J:#ff6b6b;--I:#4f9cff;--U:#36c275;--S:#e0a020;}
+  *{box-sizing:border-box;} body{margin:0;background:var(--bg);color:var(--txt);
+    font:14px/1.4 system-ui,Segoe UI,Arial;}
+  header{padding:8px 14px;background:var(--panel);border-bottom:1px solid var(--line);
+    display:flex;gap:9px;align-items:center;flex-wrap:wrap;}
+  header b{font-size:15px;margin-right:4px;}
+  main{display:grid;grid-template-columns:1fr 360px;gap:14px;padding:14px;}
+  canvas{background:#fafafa;border:1px solid var(--line);border-radius:8px;width:100%;}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;
+    max-height:85vh;overflow:auto;}
+  .panel pre{white-space:pre-wrap;word-break:break-word;}
+  select,button,input[type=number],input[type=text]{background:#363944;color:var(--txt);
+    border:1px solid var(--line);border-radius:6px;padding:5px 8px;font:inherit;}
+  input.kq{width:40px;text-align:center;} label{color:#aeb4c0;}
+  button{cursor:pointer;} button.primary{background:var(--accent);border-color:var(--accent);color:#06121f;font-weight:600;}
+  .muted{color:#7a8090;} pre{font:12px/1.45 ui-monospace,Consolas,monospace;white-space:pre;overflow:auto;margin:4px 0;}
+  table{border-collapse:collapse;font:12px ui-monospace,monospace;} td,th{border:1px solid var(--line);padding:2px 6px;text-align:right;}
+  th{color:#9aa0ad;font-weight:600;} h3{margin:10px 0 4px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#9aa0ad;}
+  .row{display:flex;align-items:center;gap:8px;margin:4px 0;} .row label{width:46px;font-family:monospace;}
+  input[type=range]{flex:1;} .val{width:52px;text-align:right;font-family:monospace;}
+  .legend span{display:inline-block;margin-right:10px;font-family:monospace;}
+  .status{font-size:13px;font-weight:600;padding:4px 9px;border-radius:6px;margin-left:auto;}
+  .ok{background:rgba(54,194,117,.18);color:var(--good);} .no{background:rgba(255,107,107,.16);color:var(--bad);}
+  .cvwrap{position:relative;}
+  .zoomctl{position:absolute;top:8px;right:8px;display:flex;gap:2px;background:rgba(42,44,51,.85);
+    border:1px solid var(--line);border-radius:6px;padding:2px;}
+  .zoomctl button{width:26px;height:26px;padding:0;line-height:1;font-size:15px;}
+  .zoomctl button:last-child{width:auto;padding:0 6px;font-size:11px;}
+  /* Verdict banner: a property of the TYPE, not of the current combo, so it sits outside the
+     canvas/panel grid and stays put as you page through sides/sums/offsets. */
+  #verdict{margin:10px 14px -4px;border-radius:8px;border:1px solid var(--line);
+    background:var(--panel);padding:10px 13px;font-size:13px;line-height:1.5;}
+  #verdict.imp{border-color:#7d2b38;background:#2a1a1f;}
+  #verdict.pos{border-color:#2c5e46;background:#16241d;}
+  #verdict .vhead{display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
+  #verdict .chip{font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:11px;
+    padding:3px 9px;border-radius:999px;}
+  #verdict.imp .chip{background:#e0576e;color:#1a0e12;}
+  #verdict.pos .chip{background:var(--good);color:#06180f;}
+  #verdict.unk .chip{background:#464b58;color:#dfe3ec;}
+  #verdict .grp{font-family:ui-monospace,Consolas,monospace;color:#ffb4c0;font-size:12px;}
+  #verdict .meta{color:#9aa0ad;font-size:12px;}
+  #verdict .why{margin-top:7px;color:#e8e8ea;max-width:96ch;}
+  #verdict button{font-size:12px;padding:3px 9px;}
+  /* Keep the proof picture small enough that the tiling it is talking about stays on screen --
+     click it (or the link) for the full-size original. */
+  #verdict .proof{margin-top:9px;}
+  #verdict .proof img{max-width:100%;max-height:300px;border-radius:6px;background:#0d0f14;
+    border:1px solid var(--line);display:block;cursor:zoom-in;}
+  #verdict .proof a{color:#ffb4c0;font-size:12px;display:inline-block;margin-top:5px;}
+</style>
+</head>
+<body>
+<header>
+  <b>mono2iso</b>
+  <input class="kq" id="bk" placeholder="k"><span class="muted">_</span><input class="kq" id="bq" placeholder="q">
+  <input class="kq" id="bn" placeholder="n"><span class="muted">_</span><input class="kq" id="br" placeholder="r">
+  <label>#</label><input class="kq" id="bid" placeholder="type" title="jump to a Tegula type number" style="width:54px">
+  <label>orb</label><select id="orbSel" style="min-width:120px" title="orbifold — only the ones that exist for this k_q n_r"></select>
+  <select id="matches" style="min-width:210px"></select>
+  <label>sides</label><select id="size"></select>
+  <label>sum</label><select id="sumType2" style="max-width:130px"></select>
+  <label>refl<input type="checkbox" id="orient2"></label>
+  <label>off<input type="number" id="offset2" value="0" min="0" style="width:44px"></label>
+  <span style="border-left:1px solid var(--line);padding-left:9px"></span>
+  <label>show</label>
+  <select id="view">
+    <option value="pick">pick a type by picture</option>
+    <option value="gallery">saved combo gallery</option>
+    <option value="find">find combo by side sizes</option>
+    <option value="tiles">tile(s) per orbit</option>
+    <option value="full">full tiling (developed)</option>
+    <option value="deepsearch">deep search (find tilings)</option>
+  </select>
+  <label><input type="checkbox" id="curves"> demo curves</label>
+  <input type="text" id="sizesIn" placeholder="sides per orbit, e.g. 8,6,1,11,8 / 8,8,1,8,8,1"
+         title="Used by the 'find combo by side sizes' view: each orbit's sizes, separated by /"
+         style="width:250px">
+  <label title="Both lists start at the SAME vertex of the tile: pick a vertex V of an orbit-1 tile; the orbit-2 list starts at the vertex that the map from the orbit-1 tile to the orbit-2 tile sends V to, going the same way round (opposite ways in the picture if that map is a reflection). Off: each list may start anywhere.">
+    anchor<input type="checkbox" id="anchorSizes"></label>
+  <button class="primary" id="go">show</button>
+  <span style="border-left:1px solid var(--line);padding-left:9px"></span>
+
+<div style="display:none">
+  <label>combo</label>
+  <select id="comboList" style="min-width:120px"><option value="">—saved—</option></select>
+  <button id="comboSave" title="save current type/size/sum/refl/offset + angles/lengths/curves">save</button>
+  <button id="comboLoad">load</button>
+  <button id="comboDel" title="delete selected saved combo">del</button>
+</div>
+
+  <button id="comboLink" title="copy a link that opens this tiling (shift-click for a link that carries the exact shape and curves)">link</button>
+  <button id="reduceBtn" title="if this tile has flat (reducible) vertices, find and load the fewer-sided version">reduce</button>
+  <button id="savePng" title="download the current canvas as a PNG image">save PNG</button>
+  <button id="saveSvg" title="download the full tiling as a scalable SVG (vector)">save SVG</button>
+  <button id="saveCombo" title="save all current settings (type, sum, refl, offset, angles, lengths, curves) to a file">save combo</button>
+  <button id="loadComboBtn" title="load settings from a saved combo file">load combo</button>
+  <span id="status" class="status"></span>
+</header>
+<div id="verdict" hidden></div>
+<main>
+  <div class="cvwrap">
+    <canvas id="cv" width="980" height="780"></canvas>
+    <div class="zoomctl" title="zoom (tiles/full tiling views) — scroll over the canvas also zooms">
+      <button id="zoomOut" title="zoom out">−</button>
+      <button id="zoomIn" title="zoom in">+</button>
+      <button id="zoomReset" title="reset zoom">1×</button>
+    </div>
+  </div>
+  <div class="panel" id="panel"></div>
+</main>
+
+<div style="display:none">
+  <input id="tileLeng"><input id="sumType"><input id="orient" type="checkbox"><input id="offset">
+  <input id="findAll" type="checkbox"><input id="tileType">
+  <input id="loadComboFile" type="file" accept=".json,application/json">
+  <input id="loadDsListFile" type="file" accept=".json,application/json"><!-- deep-search results list -->
+</div>
+<script src="verdicts.js"></script><!-- per-type verdict + the impossibility proofs; regenerate with node py/gen_verdicts.js -->
+<script src="tiling_checks.js"></script><!-- shared vertex-figure / degeneracy checks -->
+<script src="cells_map.js"></script>
+<script src="gallery_manifest.js"></script>
+<script src="gallery_shapes.js"></script><!-- unbalanced tiles grouped by shape; regenerate with node tools/gen_gallery_shapes.js -->
+<script src="allTypes.js"></script>
+<script src="aniso.js"></script>
+<script src="templates.js"></script>
+<script src="tiler_core_revpivot.js"></script><!-- the solver fork this page runs: low-numbered angles preferred as free params, A0 always pinned dependent (program4/engine/tiler_core.js is the other fork) -->
+<script src="tiler_curves.js"></script>
+<script src="curve_designer.js"></script><!-- automated curve design: separation() gate + coordinate descent -->
+<script src="tile_designer.js"></script>
+<script src="curve_sides.js"></script><!-- exact curve-side check: is a closing shape a tile at all (deep search) --><!-- diagnose (needs curves?), chooseShape (avoid 60/90/180), designCurves -->
+<script src="tiler_svg.js"></script>
+<script src="overlap_strict.js"></script>
+<script src="isohedral_criteria.js"></script>
+<script src="angle_algebra.js"></script><!-- exact angle relations from the equations -->
+<script src="isohedral_criteria_fast.js"></script>
+<script src="tile_symmetry.js"></script><!-- each orbit's tile symmetry, from netEdgeData rows 0-1 -->
+<script src="dd_patch.js"></script><!-- exact tile patch from the DD data: no develop(), no coordinates -->
+<script src="lattice_draw.js"></script><!-- full tiling from the translation block: exact at any size -->
+<script src="isohedral_block.js"></script><!-- smallest isohedral block, blocks up to q'+r' tiles -->
+<script src="mono2iso.js"></script>
+</body>
+</html>
